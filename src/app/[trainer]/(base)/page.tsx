@@ -1,6 +1,4 @@
-import { PropsWithChildren } from "react"
-
-function TrainerBase({params: { trainer}}: PropsWithChildren<{params: { trainer: string}}>) {
+function TrainerBase({params: { trainer}}: {params: { trainer: string}}) {
   return <div>TrainerBase - {trainer}</div>
 }
 
